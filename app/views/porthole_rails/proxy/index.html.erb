@@ -1,0 +1,4 @@
+<% js_prefix = ( PortholeRails.assets_enabled? ? '': '/assets/javascripts/') %>
+
+<%= javascript_include_tag ( js_prefix + 'porthole_rails/porthole' ) %>
+<%= javascript_include_tag ( js_prefix + 'porthole_rails/proxy'    ) %>
